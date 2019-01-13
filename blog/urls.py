@@ -10,5 +10,7 @@ urlpatterns = [
     # \d+ : 숫자가 하나 또는 그 이상
     # /$ : 마지막에 /으로 끝나야 한다는 뜻
     url(r'^post/(?P<pk>\d+)/$', views.post_detail, name='post_detail'),
+    url(r'^post/new/$', views.post_new, name='post_new'),
+    url(r'^post/(?P<pk>\d+)/edit/$', views.post_edit, name='post_edit'),
 ]
 
