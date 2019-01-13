@@ -20,6 +20,8 @@ https://www.pythonanywhere.com/
 
 
 @@@@@@@@
+-  myvenv\Scripts\activate
+- deactivate
 local
 1. git status
 2. git add --all .
