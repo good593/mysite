@@ -1,8 +1,22 @@
 배포하기
 http://morningbird.tistory.com/24
+https://tutorial.djangogirls.org/ko/deploy/
 
 
-1. 서버
+@  git 설치 및 설정
+1. 설치 : https://git-scm.com/
+2. 해당 포덜에서 오른쪽 클릭 >> git bash here
+3. git init
+4. git add .
+5. git commit -m "My First project Vesrion1.0"
+6. git remote add origin https://github.com/good593/mysite
+7. git push origin master
+
+
+@ 무료 서버
 https://www.pythonanywhere.com/
-2. git
-https://git-scm.com/
+1. git clone https://github.com/good593/mysite
+
+
+
+C:\Users\merlinCho\djangogirls
