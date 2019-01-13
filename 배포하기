@@ -19,4 +19,15 @@ https://www.pythonanywhere.com/
 
 
 
-C:\Users\merlinCho\djangogirls
+@@@@@@@@
+local
+1. git status
+2. git add --all .
+3. git status
+4. git commit -m "Modified info"
+5. git push
+
+pythonanywhere
+1. cd mysite
+2. git pull
+3. Web tab >> Reload

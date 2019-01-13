@@ -1,5 +1,6 @@
 장고 관리자
 -  myvenv\Scripts\activate
+- deactivate
 
 1. 슈퍼 사용자 생성
 - python manage.py createsuperuser
