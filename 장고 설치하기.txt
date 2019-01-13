@@ -1,0 +1,7 @@
+장고 설치하기 
+https://tutorial.djangogirls.org/ko/django_installation/
+
+1. python -V
+2. python -m pip install --upgrade pip
+3. pip install django~=1.11.0
+

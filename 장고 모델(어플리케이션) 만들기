@@ -1,0 +1,17 @@
+어플리케이션 만들기
+-  myvenv\Scripts\activate
+
+1. python manage.py startapp blog
+2. blog 추가
+- mysite/settings.py >> INSTALLED_APPS
+3. blog 모델 만들기
+- blog/models.py
+- 모델의 필드와 정의 
+(https://docs.djangoproject.com/en/1.11/ref/models/fields/#field-types)
+
+4. 데이터베이스에 모델을 위한 테이블 만들기
+- python manage.py makemigrations blog
+- python manage.py migrate blog
+
+5. 장고 관리자에 추가하기
+- blog/admin.py >> admin.site.register(Post)

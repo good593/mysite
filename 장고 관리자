@@ -1,0 +1,9 @@
+장고 관리자
+-  myvenv\Scripts\activate
+
+1. 슈퍼 사용자 생성
+- python manage.py createsuperuser
+(admin/qwer1234!)
+
+2. 관리자 참고 문서
+https://docs.djangoproject.com/en/1.8/ref/contrib/admin/
